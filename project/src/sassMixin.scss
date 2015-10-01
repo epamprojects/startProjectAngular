@@ -1,0 +1,3 @@
+@mixin background_position ($spriteDist, $sprite_offsetX,$sprite_offsetY) {
+  background: url($spriteDist) $sprite_offsetX $sprite_offsetY no-repeat;
+}
